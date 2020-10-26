@@ -1,0 +1,37 @@
+.container-aboutMe {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+    height: 76vh;
+    background-color: #F26646;
+
+}
+
+.principal-title-aboutMe{
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.5rem;
+    height: 8vh;
+}
+
+.container-img-aboutMe{
+    width: 80%;
+    padding: 10%;
+}
+
+.img-aboutMe{
+   width: 100%; 
+}
+
+.title-aboutMe{
+    width: 70%;
+    color: #fff; 
+}
+
+.text-aboutMe .p{
+   text-align: center;
+   font-size: 2.5rem;
+   
+}

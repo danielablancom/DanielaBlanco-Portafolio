@@ -1,0 +1,26 @@
+.container-navbar{
+    display: flex; 
+    justify-content: space-between;
+    padding: 5%;
+    background-color: #444343; 
+
+}
+
+h5{
+    color: #fff; 
+}
+.links-navbar{
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    padding: inherit;
+    color: #fff; 
+  
+}
+
+.links-navbar .p{
+    text-decoration: none;
+    list-style: none;
+ 
+}
+
