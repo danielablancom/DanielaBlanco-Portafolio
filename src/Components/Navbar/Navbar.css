@@ -2,21 +2,24 @@
     display: flex; 
     justify-content: space-between;
     padding: 5%;
-    background-color: #444343; 
+    background-color: #292929; 
 
 }
 
 h5{
     color: #fff; 
 }
+
 .links-navbar{
     display: flex;
     flex-direction: row;
-    font-size: 10px;
+    font-size: 0.6rem;
     padding: inherit;
     color: #fff; 
-  
+    justify-content: space-around;
+    width: 50vw;
 }
+
 
 .links-navbar .p{
     text-decoration: none;
@@ -24,3 +27,30 @@ h5{
  
 }
 
+@media (min-width:376px) and (max-width:480px) {
+
+    .links-navbar{
+        font-size: 0.8rem;
+        
+    }
+}
+@media (min-width:481px) and (max-width:768px) {
+    .links-navbar{
+        font-size: 1rem;
+        
+    }
+}
+
+@media (min-width:769px) and (max-width:1200px) {
+    .container-navbar{
+        height: 7vh;
+    }
+    
+    .links-navbar{
+        font-size: 1rem;
+        padding: 0;
+        justify-content: space-evenly;
+     
+        
+    }
+}

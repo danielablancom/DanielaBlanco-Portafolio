@@ -4,8 +4,9 @@
 	justify-content: center;
 	align-content: center;
 	align-items: center;
-    height: 76vh;
+    height: 150vh;
     background-color: #F26646;
+    padding-bottom: 4vh;
 
 }
 
@@ -14,6 +15,7 @@
     font-weight: 500;
     font-size: 1.5rem;
     height: 8vh;
+    
 }
 
 .container-img-aboutMe{
@@ -28,10 +30,70 @@
 .title-aboutMe{
     width: 70%;
     color: #fff; 
+    line-height: 24pt;
+    padding-bottom: 7%;
 }
 
-.text-aboutMe .p{
-   text-align: center;
-   font-size: 2.5rem;
+.text-aboutMe {
+   text-align: left;
+   font-size: 1rem;
+   margin: 0;
    
 }
+
+@media only screen and (max-width: 768px) {
+    .principal-title-aboutMe{
+        font-size: 2rem;
+        
+    }
+    .container-aboutMe {
+        height: 162vh;
+      
+    }
+    .text-aboutMe {
+        font-size: 1.2rem;
+     
+     }
+    
+}
+
+@media (min-width:769px) and (max-width:1200px) {
+    .principal-title-aboutMe{
+        z-index: 1;
+        margin-top: -68%;
+        position: absolute;
+        font-size: 2rem;
+        padding-top: 10%;
+    }
+        
+    
+    .container-aboutMe {
+        display: flex;
+        flex-direction: row;
+        height: 107vh;
+    
+    }
+
+    .text-aboutMe {
+        font-size: 1.2rem;
+        width: 40vw;
+     
+     }
+     
+     .container-img-aboutMe{
+        width: 41vw;
+        padding-left: 10%;
+        padding-top: 7%;
+        padding-right: 3%;
+    }  
+    
+
+    .title-aboutMe {
+        width: 45vw;
+        padding-right: 5%;
+        padding-top: 22%;
+    }
+    
+}
+
+

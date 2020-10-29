@@ -24,7 +24,8 @@
 }
 
 .button-style:hover {
-    color: black;
+    color:gray;
+    
   
 }
 .iconPlay{
@@ -32,3 +33,21 @@
     font-size: 1rem;
 }
 
+@media (min-width:481px) and (max-width:768px){
+    .container-buttons {
+        width: 78%;
+        
+    }
+}
+
+@media (min-width:769px) and (max-width:1200px){
+    .button-style{
+        width: 12vw;
+    }
+    .container-buttons{
+        width: 26vw;
+    }
+    .box-projects{
+        padding: 0;
+    }
+}
