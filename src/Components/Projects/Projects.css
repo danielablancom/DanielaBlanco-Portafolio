@@ -6,37 +6,31 @@
 }
 .title-projects{
     font-size: 1.5rem;
+    font-weight: 600;
     text-align: center;
-    color: #ffffff; 
-    background-color: #5E5E5E;
-    width: 100%;
-    padding-top: 7%;
+    color: #5E5E5E; 
+    width: -moz-min-content;
 }
 
 .container-firstProject{
     padding-bottom: 20%;
 }
-.container-img1{
-    background-color: #5E5E5E;
-    width: 80%;
-	padding: 10%;
+
+.box-projects{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    padding-bottom: 4vh;
 }
 
-.container-img2{
-    background-color: #F26646;
-    width: 80%;
-    padding: 10%;
-}
 
-.container-img3{
-    background-color: #5E5E5E;
-    width: 80%;
-    padding: 10%;
+.container-title-project {
+	width: 74vw;
+    padding-left: 15%;
 
 }
-.container-title-project{
-    width: 70%;
-
+.img-projects{
+    width: 100%;
 }
 .project-name{
    font-size: 1rem;
@@ -50,4 +44,79 @@
    font-size: 1rem;
    text-align: left;
    color: #444343; 
+   line-height: 19pt;
 }
+
+@media (min-width:376px) and (max-width:480px) {
+    .title-projects{
+    font-size: 2rem;
+    line-height: 31pt;
+    }
+    .project-name{
+        font-size: 1.5rem;
+    
+     }
+    } 
+    @media (min-width:481px) and (max-width:768px) {
+    .title-projects{
+        font-size: 2rem;
+        height: 21vh;
+       
+        
+    }
+    .project-name{
+        font-size: 1.5rem;
+    
+     }
+
+     .container-img{
+         width: 100vw;
+     }
+    } 
+
+@media (min-width:769px) and (max-width:1200px) {
+        .title-projects{
+            font-size: 2.5rem;
+            height: 20vh;
+            width: 50vw;
+        
+        }
+     
+        .img-projects{
+            height: 43vh;
+        }
+         .container-img-projects{
+            padding-left: 10%;
+            width: 40vw;
+            height: 50vh;
+         }
+         
+         .box-projects{
+            display: flex;
+            flex-direction: row;
+            width: 100vw;
+            padding: 10%;
+            position: relative;
+            margin: 10px;
+         }
+         .project-name{
+           position: absolute;
+           padding-top: 0;
+           padding-left: 6vh;
+           margin: 0;
+           font-size: 1.5rem;
+        }
+        .container-title-project{
+            width: 4vw;
+            padding-left: 0;
+        
+        }
+        .project-description{
+            padding-top: 8vh;
+            width: 36vw;
+         }
+        } 
+    
+
+
+    

@@ -1,0 +1,12 @@
+.text-footer{
+   text-align: center;
+   font-size: 0.8rem;
+   color: #444343; 
+}
+
+@media only screen and (max-width: 768px) {
+    .text-footer{
+       font-weight: 600; 
+     }
+
+}
