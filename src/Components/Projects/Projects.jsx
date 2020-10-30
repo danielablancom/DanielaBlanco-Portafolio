@@ -7,7 +7,7 @@ import comidaparatodos from '../../img/comidaparatodos.jpg';
 
 const Projects = () => {
     return (
-        <div className="container-projects">
+        <div id="proyectos" className="container-projects">
             <div className="title-projects">
                 <p>Proyectos Realizados</p>
             </div>

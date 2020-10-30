@@ -10,3 +10,16 @@
      }
 
 }
+
+@media (min-width:769px) and (max-width:1200px){
+   
+   .text-footer{
+      font-weight: 600; 
+    }    
+   }
+
+   @media (min-width:1201px) {
+      .text-footer{
+         font-weight: 600; 
+       }    
+      }

@@ -18,14 +18,10 @@ h5{
     color: #fff; 
     justify-content: space-around;
     width: 50vw;
-}
-
-
-.links-navbar .p{
     text-decoration: none;
-    list-style: none;
- 
+
 }
+
 
 @media (min-width:376px) and (max-width:480px) {
 
@@ -48,6 +44,16 @@ h5{
     
     .links-navbar{
         font-size: 1rem;
+        padding: 0;
+        justify-content: space-evenly;
+     
+        
+    }
+}
+
+@media (min-width:1201px) {
+    .links-navbar{
+        font-size: 1.5rem;
         padding: 0;
         justify-content: space-evenly;
      

@@ -45,9 +45,19 @@
         width: 12vw;
     }
     .container-buttons{
-        width: 26vw;
+        width: 15vw;
     }
     .box-projects{
         padding: 0;
     }
 }
+
+@media (min-width:1201px) {
+    .button-style{
+    width: 12vw;
+} 
+   .container-buttons{
+    width: 27vw;
+}
+}
+

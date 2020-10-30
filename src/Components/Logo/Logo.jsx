@@ -13,6 +13,16 @@ const Logo = () => {
                 <p className="title-ocupation">Front-end Developer / Violinista</p>
                 
             </div>
+            <span class="scroll-btn">
+	<a href="/#acercademi">
+		<span class="mouse">
+			<span>
+			</span>
+		</span>
+	</a>
+  
+
+</span>
         </div>
     );
 }

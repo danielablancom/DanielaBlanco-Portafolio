@@ -14,39 +14,39 @@ import bxlLinkedin from '@iconify/icons-bx/bxl-linkedin';
 import codeSlash from '@iconify/icons-bi/code-slash';
 
 
-
-
-
-
 const Contact = () => {
     return (
-        <div className="container-contact">
+        <div id="contacto" className="container-contact">
             <div className="title-contact">
                 <p>Contacto</p>
             </div>
             <div className="container-icon-contact">
-                
+            
             <div className="icon-box-contact">
-            <Icon icon={emailIcon} />
+            <a className="icon-box-contact" href="mailto:blancodanielac@gmail.com">
+            <Icon icon={emailIcon} /></a>
             <div className="icon-title">
-                <p>Email</p>
+                <p>Email</p> 
             </div>
             </div>    
             <div className="icon-box-contact">
-            <Icon icon={fileDocumentOutline} />
+            <a className="icon-box-contact" href="./Cv/Daniela Blanco CV.pdf">
+            <Icon icon={fileDocumentOutline} /></a>
             <div className="icon-title">
                 <p>Curriculum</p>
             </div>
             </div>
               
             <div className="icon-box-contact">
-            <Icon icon={bxlLinkedin} />
+            <a className="icon-box-contact" href="https://github.com/danielablancom" target="_blank">
+            <Icon icon={bxlLinkedin} /></a>
             <div className="icon-title">
                 <p>LinkedIn</p>
             </div>
             </div>
             <div className="icon-box-contact">
-            <Icon icon={codeSlash} />
+            <a className="icon-box-contact" href="https://app.talento.laboratoria.la/profile/hBTZsvyaChYUQOI8rU23C5HpJta2" target="_blank">
+            <Icon icon={codeSlash} /></a>
             <div className="icon-title-appLab">
                 <p>App Talento Laboratoria</p>
             </div>

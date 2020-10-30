@@ -4,7 +4,6 @@
 	justify-content: center;
 	align-content: center;
 	align-items: center;
-    height: 150vh;
     background-color: #F26646;
     padding-bottom: 4vh;
 
@@ -25,6 +24,9 @@
 
 .img-aboutMe{
    width: 100%; 
+   border-radius: 20%;
+   border-block-end-style: groove;
+   border-block-start-style: groove;
 }
 
 .title-aboutMe{
@@ -41,15 +43,21 @@
    
 }
 
-@media only screen and (max-width: 768px) {
+.button-cv {
+    background-color: #54ACAE;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    border: 2px solid;
+    cursor: pointer;
+    
+ }
+@media (min-width:376px) and (max-width:768px) {
     .principal-title-aboutMe{
         font-size: 2rem;
         
     }
-    .container-aboutMe {
-        height: 162vh;
-      
-    }
+   
     .text-aboutMe {
         font-size: 1.2rem;
      
@@ -60,7 +68,7 @@
 @media (min-width:769px) and (max-width:1200px) {
     .principal-title-aboutMe{
         z-index: 1;
-        margin-top: -68%;
+        margin-top: -60%;
         position: absolute;
         font-size: 2rem;
         padding-top: 10%;
@@ -70,7 +78,8 @@
     .container-aboutMe {
         display: flex;
         flex-direction: row;
-        height: 107vh;
+        padding-top: 13vh;
+       
     
     }
 
@@ -91,9 +100,46 @@
     .title-aboutMe {
         width: 45vw;
         padding-right: 5%;
-        padding-top: 22%;
+        padding-top: 7%;
     }
     
 }
 
+@media (min-width:1201px) {
+    .principal-title-aboutMe{
+        z-index: 1;
+        margin-top: -60%;
+        position: absolute;
+        font-size: 2rem;
+        padding-top: 10%;
+    }
+        
+    
+    .container-aboutMe {
+        display: flex;
+        flex-direction: row;
+        padding-top: 13vh;
+       
+    
+    }
 
+    .text-aboutMe {
+        font-size: 1.2rem;
+        width: 40vw;
+     
+     }
+     
+     .container-img-aboutMe{
+        width: 41vw;
+        padding-left: 10%;
+        padding-top: 7%;
+        padding-right: 3%;
+    }  
+    
+
+    .title-aboutMe {
+        width: 45vw;
+        padding-right: 5%;
+        padding-top: 7%;
+    }
+    }
