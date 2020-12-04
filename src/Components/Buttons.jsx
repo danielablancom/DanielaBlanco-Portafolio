@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Components/Buttons.css';
 // npm install --save-dev @iconify/react @iconify/icons-el
-import { Icon, InlineIcon } from '@iconify/react';
+import { Icon } from '@iconify/react';
 import playCircle from '@iconify/icons-el/play-circle';
 // npm install --save-dev @iconify/react @iconify/icons-bx
 import bxCodeAlt from '@iconify/icons-bx/bx-code-alt';

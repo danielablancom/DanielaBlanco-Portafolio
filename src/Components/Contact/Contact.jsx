@@ -1,8 +1,8 @@
 import React from 'react';
 import './Contact.css';
-import cv from '../../iconos/cv.svg';
-import javascript from '../../iconos/javascript.png';
-import react from '../../iconos/react.png';
+//import cv from '../../iconos/cv.svg';
+//import javascript from '../../iconos/javascript.png';
+//import react from '../../iconos/react.png';
 // npm install --save-dev @iconify/react @iconify/icons-carbon
 import { Icon } from '@iconify/react';
 import emailIcon from '@iconify/icons-carbon/email';
