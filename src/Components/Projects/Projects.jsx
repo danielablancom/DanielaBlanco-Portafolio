@@ -88,7 +88,7 @@ const Projects = () => {
             </div>
             <div className="container-title-project">
 
-                <p className="project-description">Comida para todos en una fundación sin fines de lucro que busca salvaguardar la seguridad alimentaria en Chile. Se desarrolló re diseño de plataforma web utilizando React, JavaScript y Sass.</p>
+                <p className="project-description">Comida para todos es una fundación sin fines de lucro que busca salvaguardar la seguridad alimentaria en Chile. Se desarrolló re diseño de plataforma web utilizando React, JavaScript y Sass.</p>
                 <div className="container-buttons">
              <div className="firstButton">
              <a href="https://comida-para-todos-9fe1e.web.app/" target="_blank">

@@ -116,8 +116,7 @@
     flex-direction: row;
     padding-bottom: 13vh;
     margin-top: -7vh;
-    height: 60vh;
-    width: 184vw;
+    padding-left: 43vh;
   }
   .container-img {
     width: 31vw;
