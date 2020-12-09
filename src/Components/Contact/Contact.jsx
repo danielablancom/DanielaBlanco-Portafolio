@@ -33,7 +33,7 @@ const Contact = () => {
             <a className="icon-box-contact" target="_blank" href="./Cv/Daniela Blanco CV.pdf">
             <Icon icon={fileDocumentOutline} /></a>
             <div className="icon-title">
-                <p>Curriculum</p>
+                <p>Currículum</p>
             </div>
             </div>
               
