@@ -1,8 +1,8 @@
 import React from 'react';
 import './Contact.css';
-import cv from '../../iconos/cv.svg';
-import javascript from '../../iconos/javascript.png';
-import react from '../../iconos/react.png';
+//import cv from '../../iconos/cv.svg';
+//import javascript from '../../iconos/javascript.png';
+//import react from '../../iconos/react.png';
 // npm install --save-dev @iconify/react @iconify/icons-carbon
 import { Icon } from '@iconify/react';
 import emailIcon from '@iconify/icons-carbon/email';
@@ -30,15 +30,15 @@ const Contact = () => {
             </div>
             </div>    
             <div className="icon-box-contact">
-            <a className="icon-box-contact" href="./Cv/Daniela Blanco CV.pdf">
+            <a className="icon-box-contact" target="_blank" href="./Cv/Daniela Blanco CV.pdf">
             <Icon icon={fileDocumentOutline} /></a>
             <div className="icon-title">
-                <p>Curriculum</p>
+                <p>Currículum</p>
             </div>
             </div>
               
             <div className="icon-box-contact">
-            <a className="icon-box-contact" href="https://github.com/danielablancom" target="_blank">
+            <a className="icon-box-contact" href="https://linkedin.com/in/danielablancom" target="_blank">
             <Icon icon={bxlLinkedin} /></a>
             <div className="icon-title">
                 <p>LinkedIn</p>

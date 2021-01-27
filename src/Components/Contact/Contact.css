@@ -4,12 +4,12 @@
     justify-content: center;
     align-content: center;
     align-items: center;
-    
+    background-color: #f2ebe9;
 }
 
 .title-contact{
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 500;
     text-align: center;
     color: #5E5E5E; 
     width: 60%;   
@@ -25,7 +25,7 @@
 
 .icon-box-contact{
     font-size: 3rem;
-    color: #F26646;
+    color: #525252;
     display: flex;
     flex-direction: column;
     align-items: center;

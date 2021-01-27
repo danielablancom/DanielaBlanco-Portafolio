@@ -1,17 +1,18 @@
 import React from 'react';
 import '../Navbar/Navbar.css';
+import logodblanco from '../../img/logodblanco.png'; 
 
 const NavBar = () => {
     return (
         <div className="container-navbar">
-            <div>
-                <h5>Daniela Blanco</h5>
+            <div className="box-logo-navbar">
+            <img src={logodblanco} className="png-logo" alt={"png-logo"}></img>
             </div>
             <div className="links-navbar">
 
-                <a className="links-navbar" href="/#acercademi">Acerca de mi</a>
-                <a className="links-navbar" href="/#proyectos">Proyectos</a>
-                <a className="links-navbar" href="/#contacto">Contacto</a>
+                <a className="links-navbar1" href="/#acercademi">Acerca de mi</a>
+                <a className="links-navbar1" href="/#proyectos">Proyectos</a>
+                <a className="links-navbar1" href="/#contacto">Contacto</a>
 
 
             </div>
