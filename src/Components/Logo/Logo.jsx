@@ -10,7 +10,7 @@ const Logo = () => {
             </div>
             <div className="title-logo">
 
-                <p className="title-ocupation">Front-end Developer / Violinista</p>
+                <p className="title-ocupation">Front-end Developer</p>
                 
             </div>
             <span class="scroll-btn">
